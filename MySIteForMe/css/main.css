@@ -1,0 +1,114 @@
+html,body{
+    margin: 0;
+    font-family: "century gothic";
+    background: linear-gradient(to bottom, #373b44, #4286f4);    
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: rgb(253, 244, 244);
+}
+
+.topNav{
+    text-align: right;
+    float: right;
+}
+
+.navLogo{
+    transition: 1s;
+}
+
+.navLogo:hover{
+    transition: 1s;
+    transform:  rotate3d(180,-0,0,-180deg);
+
+}
+
+li{
+    display: inline;
+    font-size: 25px;
+    margin-right: 100px;
+    transition: 0.5s;
+}
+
+li:hover{
+    transition: 0.5s;
+    font-size: 30px;
+    color: #4286f4;
+}
+
+.mainText{
+    text-align: center;
+    font-size: 30px;
+    transition: 0.7s;
+    padding-top: 120px;
+}
+
+.mainBtn{
+    font-family: "century gothic";
+    font-size: 20px;
+    border:none;
+    background-color: rgb(250, 77, 77);
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    transition: 1s;
+}
+
+.mainBtn:hover{
+    transition: 1s;
+    background-color: rgb(255, 38, 38);
+}
+
+.mainBtn:active{
+    transition: 5s;
+    transform: rotate(1800deg);
+    width: 600px;
+    height: 200px;
+    font-size: 50px;
+    background-color: rgb(255, 38, 38);
+}
+
+
+.secondText{
+    text-align: center;
+    font-size: 30px;
+    transition: 0.7s;
+    padding-top: 1100px;
+}
+
+.secondButtons{
+    font-family: "century gothic";
+    font-size: 20px;
+    border:none;
+    background-color: rgb(250, 77, 77);
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+}
+
+.secondButtons:hover{
+    transition: 1s;
+    background-color: rgb(255, 38, 38);
+}
+
+.btnTop{
+    font-family: "century gothic";
+    font-size: 20px;
+    border:none;
+    background-color: rgb(250, 77, 77);
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    transition: 1s;
+    margin-bottom: 400px;
+}
+
+.btnTop:hover{
+    transition: 1s;
+    background-color: rgb(255, 38, 38);
+    transform:  rotate3d(180,-0,0,-180deg);
+}
+
+.heaven{
+    margin-top: 100px;
+    text-align: center;
+}

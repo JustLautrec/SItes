@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="java/script.js"></script>
+    <title>Helloooooooo</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="image/logo.png" class="navLogo">
+            <ul class="topNav">
+                <li>Главная</li>
+                <li>Проекты</li>
+                <li>Связь</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="mainText">
+            <h1>Кто я, и что я делаю?</h1>
+            <p>Блин, ну не знаю, пока что делаю вот этот сайт. <br> Потом сделаю сайт про котиков</p>
+            <button id="btnScrollToBottom"  class="mainBtn">Узнать больше</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="secondText">
+            <p>В общем я думаю делать разные крутые штуки в вебе. <br> Нажмите на кнопочки внизу и узнайте о всяких штуках которые я делал.</p>
+            <div>
+            <button class="secondButtons">Проекты</button>
+            <button class="secondButtons">Что-от ещё</button>
+            <button class="secondButtons">И котики</button>
+        </div>
+        </div>
+    </section>
+
+    <div class="heaven">
+    <button class="btnTop" id="btnTop">Отвезите меня наверх</button>
+</div>
+
+</body>
+</html>
+
+<script>
+    const btnScrollToTop = document.querySelector("#btnScrollToBottom");
+    btnScrollToBottom.addEventListener("click",function(){
+        window.scrollTo({
+            top:10000,
+            left:10000,
+            behavior:"smooth"
+        });
+    });
+</script>
+
+<script>
+    const btnTop = document.querySelector("#btnTop");
+    btnTop.addEventListener("click",function(){
+        window.scrollTo({
+            top:0,
+            left:0,
+            behavior:"smooth"
+        });
+    });
+</script>
